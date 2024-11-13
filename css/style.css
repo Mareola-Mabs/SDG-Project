@@ -245,7 +245,7 @@ button {
 
 .read_more {
     font-size: 16px;
-    background: #212121;
+    background: blue;
     max-width: 233px;
     width: 100%;
     transition: ease-in all 0.5s;
@@ -259,7 +259,7 @@ button {
 }
 
 .read_more:hover {
-    background: #39b54a;
+    background: #212121;
     color: #fff;
 }
 
@@ -390,12 +390,13 @@ ul.social_icon li a i:hover {
 
 
 .navbar-area {
-    background: #39b54a;
+    background: blue;
     display: flex;
     justify-content: space-around;
     height: 112px;
     align-items: center;
     margin-bottom: -54px;
+    border-radius: 10px;
 }
 
 
@@ -581,8 +582,8 @@ ul.email li a i {
 #banner1 .carousel-control-next {
     width: 76px;
     height: 76px;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     font-size: 40px;
     opacity: 1;
     top: 98%;
@@ -604,7 +605,7 @@ ul.email li a i {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
     color: #fff;
-    background: #39b54a;
+    background: blue;
 }
 
 

@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Blogging</title>
+      <title>SDG Project</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -48,16 +48,16 @@
                           <div class="col-md-4 d_none">
                               <ul class="top_info">
                                  <li><i class="fa fa-phone" aria-hidden="true"></i>
-                                  Call : +01 1234567890
+                                  <a href="callto:+2348096905845">Call Us</a>
                                  </li>
                                  <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="Javascript:void(0)">Loram ipusm</a>
+                                    <a href="mailto:bulun1001@gmail.com">Send us a Mail</a>
                                  </li>
                               </ul>
                            </div>
                            <div class=" col-md-4 col-sm-12">
                               <div class="logo">
-                                 <a href="index.html">BLOGGING </a>
+                                 <a href="index.html">SDG Project </a>
                               </div>
                           </div>
                           <div class="col-md-4 d_none">
@@ -76,17 +76,17 @@
                         <nav class="site-navbar">
                            <ul>
                               <li><a class="active" href="index.html">Home</a></li>
-                              <li><a href="https://html.design/">About</a></li>
-                              <li><a href="https://html.design/">Blog</a></li>
-                              <li><a href="testimonial.html">testimonial</a></li>
-                              <li><a href="contact.html">Contact us</a></li>
+                              <li><a href="#about__page">About</a></li>
+                              <li><a href="#blog__page">Blog</a></li>
+                              <li><a href="#testimonial__page">testimonial</a></li>
+                              <li><a href="#contact__page">Contact us</a></li>
                            </ul>
                            <button class="nav-toggler">
                            <span></span>
                            </button>
                         </nav>
                         <ul class="email text_align_right">
-                            <li><a href="Javascript:void(0)">Log In</a></li>
+                            <li><a href="./pages/login.html">Log In</a></li>
                             <li><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
@@ -96,7 +96,7 @@
          </header>
          <!-- end header inner -->
          <!-- banner -->
-           <div class="full_bg">
+           <div class="full_bg" id="about__page">
          <div class="slider_main">
             <!-- carousel code -->
             <div id="banner1" class="carousel slide">
@@ -169,7 +169,7 @@
       </div>
       <!-- end banner -->
       <!-- perfect -->
-      <div class="perfect">
+      <div class="perfect" id="blog__page">
          <div class="container_width">
             <div class="row d_flex grig">
                <div class="col-lg-6">
@@ -220,7 +220,7 @@
       </div>
       <!-- end perfect -->
       <!-- combined -->
-      <div class="combined">
+      <div class="combined" id="testimonial__page">
          <div class="clients_bg">
             <div class="container-fluid">
                <div class="row d_flex grig">
@@ -317,7 +317,7 @@
       </div>
       <!-- end combined -->
        <!-- contact -->
-      <div class="contact">
+      <div class="contact" id="contact__page">
          <div class="container">
             <div class="row">
                <div class="col-md-12 ">
@@ -326,22 +326,22 @@
                   </div>
                </div>
                <div class="col-md-12">
-                  <form id="request" class="main_form">
+                  <form id="contact-form" class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <input class="form_control" placeholder="Name" type="type" name=" Name"> 
+                           <input id="name" class="form_control" placeholder="Name" type="type" name=" Name" required> 
                         </div>
                         <div class="col-md-12">
-                           <input class="form_control" placeholder="Email" type="type" name="Email"> 
+                           <input id="email" class="form_control" placeholder="Email" type="type" name="Email" required> 
                         </div>
                         <div class="col-md-12">
-                           <input class="form_control" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           <input id="subject" class="form_control" placeholder="Phone Number" type="type" name="Phone Number" required>                          
                         </div>
                         <div class="col-md-12">
-                           <input class="textarea" placeholder="Message" type="type" name="message">
+                           <input id="message" class="textarea" placeholder="Message" type="type" name="message" required>
                         </div>
                         <div class="col-md-12">
-                           <button class="send_btn">Send</button>
+                           <input style="border:none;cursor:pointer;" type="submit" value="Submit" class="send_btn">
                         </div>
                      </div>
                   </form>
@@ -359,14 +359,11 @@
                            <div class="hedingh3  text_align_left">
                               <h3>Contact Us</h3>
                               <ul class="top_infomation">
-                                 <li><img src="images/loc.png" alt="#"/>
-                                    Locations
-                                 </li>
                                    <li><img src="images/call.png" alt="#"/>
-                                    +71 89078493
+                                    <a href="callto:+2348096905845">Call Us</a>
                                  </li>
                                  <li><img src="images/mail.png" alt="#"/>
-                                    <a href="Javascript:void(0)"><span class="__cf_email__" data-cfemail="99fdfcf4f6d9fef4f8f0f5b7faf6f4">[email&#160;protected]</span></a>
+                                    <a href="mailto:bulun1001@gmail.com"><span class="__cf_email__" data-cfemail="99fdfcf4f6d9fef4f8f0f5b7faf6f4">Send us a Mail</span></a>
                                  </li>
                               </ul>
                            </div>
@@ -375,11 +372,11 @@
                            <div class="hedingh3 text_align_left">
                               <h3>Useful Link</h3>
                               <ul class="menu_footer">
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="https://html.design/">About</a></li>
-                                 <li><a href="https://html.design/">Blog</a></li>
-                                 <li><a href="https://html.design/">Service</a></li>
-                                 <li><a href="contact.html">Contact</a></li>
+                                 <li><a class="active" href="index.html">Home</a></li>
+                                 <li><a href="#about__page">About</a></li>
+                                 <li><a href="#blog__page">Blog</a></li>
+                                 <li><a href="#testimonial__page">testimonial</a></li>
+                                 <li><a href="#contact__page">Contact us</a></li>
                               </ul>
                            </div>
                         </div>
@@ -398,7 +395,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2022 All Rights Reserved. Design by <a href="https://html.design/"> Free html Templates</a></p>
+                        <p>© 2024 All Rights Reserved.</p>
                      </div>
                   </div>
                </div>
@@ -413,7 +410,47 @@
       <script src="js/owl.carousel.min.js"></script>
       <script src="js/bootstrap-datepicker.min.js"></script>
       <script src="js/custom.js"></script>
-   </body>
 
-<!-- Mirrored from html.design/demo/blogging/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Nov 2024 13:54:18 GMT -->
+      <!-- Email Form Submitter -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script>
+         (function() {
+               // https://dashboard.emailjs.com/admin/account
+               emailjs.init({
+               publicKey: "EZUXNihXPfuzEpbpO",
+               });
+         })();
+     
+         const form = document.getElementById('contact-form');
+     
+         form.addEventListener('submit', function(e) {
+           e.preventDefault();
+     
+           // Get form data
+           const name = document.getElementById('name').value;
+           const email = document.getElementById('email').value;
+           const subject = document.getElementById('subject').value;
+           const message = document.getElementById('message').value;
+     
+           const templateParams = {
+             from_name: name,
+             from_email: email,
+             subject: subject,
+             message: message
+           };
+     
+           // Send the email using EmailJS
+           emailjs.send('service_lc68q3i', 'template_ourwai4', templateParams)
+             .then(function(response) {
+               // Handle success
+               alert("Message Sent Successfully")
+             }, function(error) {
+               console.log(error)
+               // Handle error
+               alert("Sending Failed")
+             });
+         });
+       </script>
+     
+   </body>
 </html>
