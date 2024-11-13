@@ -582,7 +582,7 @@ ul.email li a i {
 #banner1 .carousel-control-next {
     width: 76px;
     height: 76px;
-    background-color: #000;
+    background-color: blue;
     color: #fff;
     font-size: 40px;
     opacity: 1;
@@ -605,7 +605,7 @@ ul.email li a i {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
     color: #fff;
-    background: blue;
+    background: #141313;
 }
 
 
