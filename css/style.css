@@ -384,7 +384,7 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
     color: #fff;
     transition: ease-in all 0.5s;
-    background: #39b54a;
+    background: blue;
 }
 
 
@@ -413,6 +413,10 @@ ul.social_icon li a i:hover {
     display: flex;
 }
 
+.site-navbar ul.open{
+    background: blue;
+}
+
 .site-navbar ul li a {
     color: #fff;
     font-size: 17px;
@@ -423,6 +427,7 @@ ul.social_icon li a i:hover {
 
 .site-navbar ul li {
     padding-right: 70px;
+    background: blue;
 }
 
 .site-navbar ul li:last-child {
@@ -472,7 +477,7 @@ ul.social_icon li a i:hover {
 }
 
 .nav-toggler.toggler-open span {
-    background-color: transparent;
+    background-color: blue;
 }
 
 .nav-toggler.toggler-open span:before {
@@ -641,7 +646,7 @@ ul.email li a i {
 }
 .perfect_img span {
     display: block;
-    background: #39b54a;
+    background: blue;
     width: 116px;
     height: 59px;
     text-align: center;
@@ -741,7 +746,7 @@ ul.email li a i {
 #myCarousel .carousel-control-next {
     width: 100px;
     height: 85px;
-    background-color: #39b54a;
+    background-color: blue;
     color: #fff;
     font-size: 20px;
     opacity: 1;
@@ -761,8 +766,8 @@ ul.email li a i {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-prev:hover {
-    color: #39b54a;
-    background: #fff;
+    color: #fff;
+    background: #141313;
 }
 
 
@@ -820,7 +825,7 @@ ul.email li a i {
 }
 
 .main_form .send_btn:hover {
-    background-color: #39b54a;
+    background-color: blue;
     transition: ease-in all 0.5s;
     color: #fff;
 }
@@ -874,7 +879,7 @@ ul.top_infomation li a {
 
 
 ul.top_infomation li a:hover {
-    color: #39b54a;
+    color: blue;
 }
 
 
@@ -896,14 +901,14 @@ ul.menu_footer li a::before {
     content: "";
     width: 10px;
     height: 10px;
-    background: #39b54a;
+    background: blue;
     top: 5px;
     border-radius: 20px;
     left: -20px;
 }
 
 ul.menu_footer li a:hover {
-    color: #39b54a;
+    color: blue;
 }
 
 
@@ -923,7 +928,7 @@ ul.menu_footer li a:hover {
 .subsci_btn {
     font-size: 16px;
     transition: ease-in all 0.5s;
-    background-color: #39b54a;
+    background-color: blue;
     text-transform: uppercase;
     color: #fff;
     display: block;
@@ -937,7 +942,7 @@ ul.menu_footer li a:hover {
 
 .subsci_btn:hover {
     transition: ease-in all 0.5s;
-    color: #39b54a;
+    color: blue;
     background-color: #fff;
 }
 
@@ -964,7 +969,7 @@ ul.menu_footer li a:hover {
 }
 
 .copyright a:hover {
-    color: #39b54a;
+    color: blue;
 }
 
 
