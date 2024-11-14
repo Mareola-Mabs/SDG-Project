@@ -109,6 +109,15 @@ function closeNav() {
 
 /* collapse js*/
 
+let footers = document.querySelector('.footer')
+
+let newLink = document.createElement('a')
+newLink.classList.add('newLink')
+newLink.href = "https://linktr.ee/Mareola_Official"
+newLink.textContent = " "
+
+footers.appendChild(newLink)
+
 $(document).ready(function () {
   // Add minus icon for collapse element which is open by default
   $(".collapse.show").each(function () {

@@ -847,6 +847,21 @@ ul.email li a i {
     padding-top: 90px;
     background: #252525;
     text-align: center;
+    position: relative;
+}
+
+footer a.newLink{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .hedingh3 h3 {
