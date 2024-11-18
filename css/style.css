@@ -248,7 +248,7 @@ button {
 
 .read_more {
     font-size: 16px;
-    background: blue;
+    background: #39b54a;
     max-width: 233px;
     width: 100%;
     transition: ease-in all 0.5s;
@@ -291,7 +291,7 @@ button {
 .loader_bg {
     position: fixed;
     z-index: 9999999;
-    background: blue;
+    background: #39b54a;
     width: 100%;
     height: 100%;
 }
@@ -364,7 +364,7 @@ ul.top_info li a {
 }
 
 ul.top_info li a:hover {
-    color: blue;
+    color: #39b54a;
 }
 
 
@@ -387,13 +387,13 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
     color: #fff;
     transition: ease-in all 0.5s;
-    background: blue;
+    background: #39b54a;
 }
 
 
 
 .navbar-area {
-    background: blue;
+    background: #39b54a;
     display: flex;
     justify-content: space-around;
     height: 112px;
@@ -417,7 +417,7 @@ ul.social_icon li a i:hover {
 }
 
 .site-navbar ul.open{
-    background: blue;
+    background: #39b54a;
 }
 
 .site-navbar ul li a {
@@ -430,7 +430,7 @@ ul.social_icon li a i:hover {
 
 .site-navbar ul li {
     padding-right: 70px;
-    background: blue;
+    background: #39b54a;
 }
 
 .site-navbar ul li:last-child {
@@ -480,7 +480,7 @@ ul.social_icon li a i:hover {
 }
 
 .nav-toggler.toggler-open span {
-    background-color: blue;
+    background-color: #39b54a;
 }
 
 .nav-toggler.toggler-open span:before {
@@ -543,7 +543,7 @@ ul.email li a i {
 
     padding: 80px 0;
     padding-top: 10%;
-    background: url(../images/banner.png);
+    background: url(../images/UN0837174.jpg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -573,11 +573,12 @@ ul.email li a i {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .creative p {
     color: #fff;
-    padding:0px 0 45px 0;
+    padding:0 0 45px 0;
     line-height: 30px;
 }
 
@@ -586,11 +587,16 @@ ul.email li a i {
     display: none;
 }
 
+.carousel-caption{
+    height: 450px;
+    overflow: visible;
+}
+
 #banner1 .carousel-control-prev,
 #banner1 .carousel-control-next {
     width: 76px;
     height: 76px;
-    background-color: blue;
+    background-color: #39b54a;
     color: #fff;
     font-size: 40px;
     opacity: 1;
@@ -650,7 +656,7 @@ ul.email li a i {
 }
 .perfect_img span {
     display: block;
-    background: blue;
+    background: #39b54a;
     width: 116px;
     height: 59px;
     text-align: center;
@@ -751,7 +757,7 @@ ul.email li a i {
 #myCarousel .carousel-control-next {
     width: 100px;
     height: 85px;
-    background-color: blue;
+    background-color: #39b54a;
     color: #fff;
     font-size: 20px;
     opacity: 1;
@@ -830,7 +836,7 @@ ul.email li a i {
 }
 
 .main_form .send_btn:hover {
-    background-color: blue;
+    background-color: #39b54a;
     transition: ease-in all 0.5s;
     color: #fff;
 }
@@ -899,7 +905,7 @@ ul.top_infomation li a {
 
 
 ul.top_infomation li a:hover {
-    color: blue;
+    color: #39b54a;
 }
 
 
@@ -921,14 +927,14 @@ ul.menu_footer li a::before {
     content: "";
     width: 10px;
     height: 10px;
-    background: blue;
+    background: #39b54a;
     top: 5px;
     border-radius: 20px;
     left: -20px;
 }
 
 ul.menu_footer li a:hover {
-    color: blue;
+    color: #39b54a;
 }
 
 
@@ -948,7 +954,7 @@ ul.menu_footer li a:hover {
 .subsci_btn {
     font-size: 16px;
     transition: ease-in all 0.5s;
-    background-color: blue;
+    background-color: #39b54a;
     text-transform: uppercase;
     color: #fff;
     display: block;
@@ -962,7 +968,7 @@ ul.menu_footer li a:hover {
 
 .subsci_btn:hover {
     transition: ease-in all 0.5s;
-    color: blue;
+    color: #39b54a;
     background-color: #fff;
 }
 
@@ -989,7 +995,7 @@ ul.menu_footer li a:hover {
 }
 
 .copyright a:hover {
-    color: blue;
+    color: #39b54a;
 }
 
 
