@@ -630,7 +630,6 @@ ul.email li a i {
 
 .perfect {
     background: #fff;
-    display: none;
    
 }
 
@@ -792,6 +791,17 @@ ul.email li a i {
 .contact {
     background: #fff;
     padding-top: 74px;
+}
+
+#contact__page1{
+    margin-top: -100px;
+}
+
+#contact__page1 h2{
+    background: #39b54a;
+    color: #fff;
+    padding: 20px;
+    user-select: none;
 }
 
 .main_form .form_control {
