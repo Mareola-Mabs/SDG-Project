@@ -236,6 +236,7 @@ button {
     display: inline-block;
 }
 
+
 .titlepage p {
     padding-top: 0px;
 }
@@ -813,6 +814,12 @@ ul.email li a i {
     #contact__page1{
         padding-top: 10px;
     }
+
+    .perfect .titlepage h2{
+        font-size: 20px;
+    }
+
+    
 }
 
 #contact__page1 h2{
