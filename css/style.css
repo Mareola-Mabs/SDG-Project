@@ -400,6 +400,8 @@ ul.social_icon li a i:hover {
     align-items: center;
     margin-bottom: -54px;
     border-radius: 10px;
+    position: relative;
+    z-index: 2000;
 }
 
 
@@ -543,11 +545,20 @@ ul.email li a i {
 
     padding: 80px 0;
     padding-top: 10%;
-    background: url(../images/UN0837174.jpg.jpg);
+    background: url(../images/IMG_5287.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.slider_main .slider_main-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 101, 255, 0.3);
+    top: 0;
 }
 
 .relative {
