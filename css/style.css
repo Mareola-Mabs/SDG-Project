@@ -536,7 +536,7 @@ ul.email li a i {
   padding:0 45px 45px 45px;
   box-shadow: 3px 0 62px rgba(13, 3, 3, 0.10);
   margin: 0 50px;
-  margin-bottom: 52px;
+  margin-bottom: 0;
 }
 
 .slider_main {
@@ -794,7 +794,13 @@ ul.email li a i {
 }
 
 #contact__page1{
-    margin-top: -100px;
+    padding-top: 100px;
+}
+
+@media only screen and (max-width:575px){
+    #contact__page1{
+        padding-top: 10px;
+    }
 }
 
 #contact__page1 h2{
