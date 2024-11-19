@@ -774,6 +774,7 @@ ul.email li a i {
 .impact_text p{
     font-weight: 500;
     color: #39b54a;
+    margin-top: -12px;
 }
 
 .impact_text p.two{
