@@ -787,6 +787,61 @@ ul.email li a i {
     color: #121212;
 }
 
+.presence{
+    padding: 7vw;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vw;
+}
+
+.presence__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presence1-img{
+    width: 100%;
+    height: 100%;
+}
+
+.presence1 p.presence-text{
+    color: #EA1E45;
+    font-weight: 450;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    margin-bottom: 15px;
+}
+
+.presence1 p.presence-text1{
+    color: #121212;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+.presence1 p.presence-text1 span{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.presence1 p.presence-text1{
+    word-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+.presence1-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 /** combined **/
 
 .combined {
@@ -1142,6 +1197,14 @@ ul.menu_footer li a:hover {
 
     .impact_text{
         margin-top: 0px;
+    }
+
+    .presence{
+        padding: 10vw;
+        padding-top: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5vw;
     }
 /* 
     .perfect .titlepage h2{
